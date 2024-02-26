@@ -6,3 +6,16 @@ color: white;
 pre {
 color: #0F52BA;
 }
+a:link {
+color: #0F52BA;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: #0F52BA;
+background-color: transparent;
+text-decoration: none;
+}
+img {
+border:1px solid #0F52BA;
+}
