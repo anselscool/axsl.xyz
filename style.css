@@ -1,0 +1,27 @@
+:root {
+  background-color: #000000;
+  font-family: monospace;
+  color: white;
+  padding: 1rem;
+}
+
+pre {
+  color: #0f52ba;
+}
+
+a:link {
+  color: #0f52ba;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0f52ba;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+img {
+  border: 1px solid #0f52ba;
+  max-width: 80%;
+}
