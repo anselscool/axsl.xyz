@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /photography.html
+Disallow: /minecraft.html
