@@ -25,3 +25,22 @@ img {
   border: 1px solid #0f52ba;
   max-width: 80%;
 }
+
+.status-box {
+ border-style: solid;
+ border-color: #0f52ba;
+ width: 12%;
+ text-align: center;
+}
+
+@media (max-width: 600px) {
+  pre {
+    font-size: 11px;
+  }
+  .status-box {
+    border-style: solid;
+    border-color: #0f52ba;
+    width: 60%;
+    text-align: center;
+  }
+}
