@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-   <style>
-    :root {
-     background-color: black;
-     font-family: monospace;
-     color: white;
-     padding: 1rem;
-    }
-    pre {
-     color: #0f52ba;
-    }
-    a:link {
-     color: #0f52ba;
-     background-color: transparent;
-     text-decoration: none;
-    }
-    a:visited {
-     color: #0f52ba;
-     background-color: transparent;
-     text-decoration: none;
-    }
-   </style>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta content="axsl" property="og:title">
-  <meta content="~/about" property="og:description">
-  <meta content="https://axsl.xyz/about.html" property="og:url">
-  <meta content="#0F52BA" data-react-helmet="true" name="theme-color">
-  <title>~/axsl/about</title>
- </head>
+<head>
+<style>
+:root {
+background-color: #0C0D0E;
+font-family: monospace;
+color: white;
+}
+pre {
+color: #0F52BA;
+}
+a:link {
+color: #0F52BA;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: #0F52BA;
+background-color: transparent;
+text-decoration: none;
+}
+#header {
+margin-left: 30px;
+margin-top: 10px;
+}
+#content { 
+margin-top: 30px;
+border: 1px solid #0F52BA;
+margin-left: 300px;
+padding: 20px;
+max-width: 900px;
+}
+#sidebar {
+margin-top: 50px;
+padding: 4px;
+float: left;
+margin-left: 30px;
+border: 1px solid #0F52BA;
+}
+span {
+color: #0F52BA;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="axsl" property="og:title">
+<meta content="~/about" property="og:description">
+<meta content="https://axsl.xyz/about.html" property="og:url">
+<meta content="#0F52BA" data-react-helmet="true" name="theme-color">
+<title>~/axsl/about</title>
+</head>
 <body>
+<div id="header">
 <pre>
       ___.                  __
 _____ \_ |__   ____  __ ___/  |_
@@ -38,64 +59,56 @@ _____ \_ |__   ____  __ ___/  |_
  / __ \| \_\ (  <_> )  |  /|  |
 (____  /___  /\____/|____/ |__|
      \/    \/
-</pre >
+</pre>
+<h4>
+<a href="index.html">
+<span>←</span>
+home
+</a>
+</h4>
+</div>
+<div id="content">
+<p>hello im ansel a cool dude that does stuff</p>
 <h2>interests</h2>
-<p>
-technology: foss, cyber security, linux, retro tech
-<br>
-philosophy: stoicism, metaphysics, theology, digital minimalism
-<br>
-reading: sci-fi, fiction, cyberpunk, philosophy
-<br>
-music: nu metal, jazz, game soundtracks, hip hop, breakcore, dance
-</p>
+<p><b>philosophy</b>: I find philosophy very interesting, some of my favourite topics are, stoicism, metaphysics, and theology.</p>
+<p><b>gaming</b>: some of my favourite games include, the POSTAL games mainly POSTAL Redux, and Postal 2, Minecraft, Half-Life, CSGO, Dead Space, Left 4 Dead 2, and Sonic games.</p>
+<p><b>reading</b>: sci-fi, fiction, cyberpunk, philosophy.</p>
+<p><b>urbanism</b>: public transport, urban planning.</p>
+<p><b>photography</b>: I started photography in high school, and wanted to tell stories with photos, I lost interest in photography as I didnt have a camera, but one day decided to start using my phone then got back into taking photos more, and eventally bought my first camera.</p>
+<p><b>music</b>: I couldn't live without music, I love most genres but my favourites are nu metal, jazz, game soundtracks, hip hop, breakcore, dance.</p>
 <h2>hardware</h2>
+<h4><b>desktop: box</b></h4>
 <p>
-desktop: Dell Optiplex 7010, i7-3770, Radeon HD 7570, 12GB RAM, 2TB SSD, 250GB HDD, 238GB NVMe SSD
+cpu: Ryzen 7 5700X3D
 <br>
-laptop: Thinkpad T480, i5-8250U, 8GB RAM, 960GB SSD
+gpu: RX 6750 XT
 <br>
-Steam Deck OLED, AMD APU, 1TB
+ram: 32GB @ 3600MHz
+<br>
+storage: 2TB NVME SSD, 2TB SSD
+</p>
+<h4><b>laptop: thinkpad</b></h4>
+<p>
+Thinkpad T480
+<br>
+cpu: i5-8250U
+<br>
+ram: 16GB @ 3200MHz
+<br>
+storage: 960GB SSD
+</p>
+<p>
+Steam Deck OLED
 <br>
 phone: Google Pixel 6 running GrapheneOS
 <br>
-camera: Sony α6000
-</p>
-<h2>peripherals</h2>
-<p>
-monitor: LG UltraGear 27GS75Q
-<br>
-keyboards: Keychron V3 with Gateron browns, IBM Space Saver II RT3200
-<br>
-mouse: Razer DeathAdder V2
-<br>
-audio: 7Hz x Crinacle Zero 2
-</p>
-<h2>software</h2>
-<p>
-os: arch linux
-<br>
-text editor: vim, vscodium
-<br>
-terminal: alacritty
-<br>
-browser: firefox
-<br>
-browser addons: ublock origin, decentraleyes, tridactyl
-<br>
-wm: bspwm, dwm
-<br>
-xmpp client: gajim
+camera: Sony α6000 with 50mm Sony prime lens
 </p>
 <h2>contact me</h2>
-<p>
-email: <a href="mailto:anselscool@protonmail.com">anselscool@protonmail.com</a>
-<br>
-XMPP: <a href="xmpp:axsl@07f.de">axsl@07f.de</a> you can find my <a href="https://conversations.im/omemo/">OMEMO</a> keys <a href="/files/OMEMOkeys.txt">here</a>
-<br>
-signal: anselscool.05
-<br>
-discord: anselscool
-</p>
+<p>If you want to talk, here are some platforms I'm available on.</p>
+<p><span>~</span> <b>Email:</b> <a href="mailto:anselscool@protonmail.com">anselscool@protonmail.com</a></p>
+<p><span>~</span> <b>XMPP:</b> <a href="xmpp:axsl@07f.de">axsl@07f.de</a> - you can find my <a href="https://conversations.im/omemo/">OMEMO</a> keys <a href="/files/OMEMOkeys.txt">here</a>.</p>
+<p><span>~</span> <b>Discord:</b> anselscool</p>
+</div>
 </body>
 </html>

@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-   <style>
-    :root {
-     background-color: black;
-     font-family: monospace;
-     color: white;
-     padding: 1rem;
-    }
-    pre {
-     color: #0f52ba;
-    }
-    a:link {
-     color: #0f52ba;
-     background-color: transparent;
-     text-decoration: none;
-    }
-    a:visited {
-     color: #0f52ba;
-     background-color: transparent;
-     text-decoration: none;
-    }
-    @media (max-width: 600px) {
-     pre {
-      font-size: 11px;
-     }
-    } 
-   </style>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta content="axsl" property="og:title">
-  <meta content="~/links" property="og:description">
-  <meta content="https://axsl.xyz/links.html" property="og:url">
-  <meta content="#0F52BA" data-react-helmet="true" name="theme-color">
-  <title>~/axsl/links</title>
- </head>
+<head>
+<style>
+:root {
+background-color: #0C0D0E;
+font-family: monospace;
+color: white;
+}
+pre {
+color: #0F52BA;
+}
+a:link {
+color: #0F52BA;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: #0F52BA;
+background-color: transparent;
+text-decoration: none;
+}
+#header {
+margin-left: 30px;
+margin-top: 10px;
+}
+#content { 
+padding: 5px;
+border: 1px solid #0F52BA;
+margin-left: 300px;
+padding: 10px;
+max-width: 700px;
+}
+#sidebar {
+padding: 4px;
+float: left;
+margin-top: 40px;
+margin-left: 30px;
+border: 1px solid #0F52BA;
+}
+span {
+color: #0F52BA;
+}
+h2 {
+margin-left: 340px;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="axsl" property="og:title">
+<meta content="~/links" property="og:description">
+<meta content="https://axsl.xyz/links.html" property="og:url">
+<meta content="#0F52BA" data-react-helmet="true" name="theme-color">
+<title>~/axsl/links</title>
+</head>
 <body>
+<div id="header">
 <pre>
 .__  .__        __
 |  | |__| ____ |  | __  ______
@@ -44,9 +63,16 @@
 |____/__|___|  /__|_ \/____  >
              \/     \/     \/
 </pre>
-<h2>big list of links to stuff i find helpful or interesting</h2>
-<p>
-<a href="#AcademicResources">[academic aesources]</a>
+<h4>
+<a href="index.html">
+<span>←</span>
+home
+</a>
+</h4>
+</div>
+<div id="sidebar">
+<h4>
+<a href="#EducationalResources">[educational aesources]</a>
 <br>
 <a href="#NewsSourceAndLinkAggregators">[news source and link aggregators]</a>
 <br>
@@ -61,16 +87,23 @@
 <a href="#MiscTechStuff">[misc. tech stuff]</a>
 <br>
 <a href="#Misc">[misc]</a>
-</p>
-<h3 id="AcademicResources">academic resources</h3>
+</h4>
+</div>
+<h2>big list of links to stuff i find helpful or interesting</h2>
+<div id="content">
+<h3 id="EducationalResources">educational resources</h3>
 <p>
 <a href="https://www.wikiversity.org" target="_blank">Wikiversity</a> // free learning resources
+<br>
+<a href="https://learn-anything.xyz/" target="_blank">Learn Anything</a> // learning resource search
 <br>
 <a href="https://systemcrafters.net/guides/" target="_blank">System Crafters</a> // great guides on emacs
 <br>
 <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a> // learn to code for free
 <br>
 <a href="https://tryhackme.com" target="_blank">TryHackMe</a> // learn cybersecurity
+<br>
+<a href="https://roadmap.sh/" target="_blank">roadmap.sh</a> // developer roadmaps
 <br>
 <a href="https://libgen.is" target="_blank">Library Genesis</a> // free books!
 <br>
@@ -81,14 +114,20 @@
 <a href="https://www.thepunctuationguide.com" target="_blank">The Punctuation Guide</a>
 <br>
 <a href="https://cpu.land" target="_blank">CPU Land</a> // learn how cpus work
+<br>
+<a href="https://ihavenotv.com/" target="_blank">ihavenotv</a> // documentaries
+<br>
+<a href="https://www.ted.com/" target="_blank">Ted</a> // educational talks
 </p>
 <h3 id="NewsSourceAndLinkAggregators">news source and link aggregators</h3>
 <p>
 <a href="https://news.ycombinator.com" target="_blank">Hacker News</a> // tech related news aggregator
 <br>
+<a href="https://news.t0.vc/" target="_blank">QotNews</a> // Hacker News, Reddit, Lobsters, and Tildes
+<br>
 <a href="https://lobste.rs" target="_blank">Lobsters</a> // tech related news aggregator
 <br>
-<a href="https://news.t0.vc" target="_blank">QotNews</a> // Hacker News, Reddit, Lobsters, and Tildes articles rendered in reader mode.
+<a href="https://upstract.com/" target="_blank">Upstract</a>
 <br>
 <a href="https://join-lemmy.org" target="_blank">Lemmy</a> // federated link aggregator
 <br>
@@ -166,11 +205,16 @@
 <h4>movies/tv/anime</h4>
 <p>
 movies and tv:
+<br>
+<a href="https://bye.undi.rest/" target="_blank">Sudo-Flix's Stremio Guide</a>, <a href="https://guides.viren070.me/stremio" target="_blank">Viren070's Guides</a> // stremio guides
+<br>
+<a href="https://www.cineby.app/" target="_blank">Cineby</a>
+<br>
+<a href="https://rivestream.org/" target="_blank">Rive</a>
+<br>
 <a href="https://movie-web.github.io/docs/instances" target="_blank">movie-web</a> // watch shows and movies
 <br>
-<a href="https://sflix.to/home" target="_blank">SFlix</a> // watch movies and tv shows online
-<br>
-<a href="https://ihavenotv.com" target="_blank">ihavenotv.com</a> // watch documentaries for free
+<a href="https://azmovies.ag/" target="_blank">AZMovies</a> // watch movies and tv shows online
 </p>
 <p>
 anime:
@@ -185,13 +229,15 @@ anime:
 </p>
 <h4>music</h4>
 <p>
+<a href="https://rentry.org/firehawk52" target="_blank">Firehawk52</a>
+<br>
 <a href="https://doubledouble.top" target="_blank">DoubleDouble</a> // download music from music services
 <br>
 <a href="https://flacattack.net/" target="_blank">FLAC Attack</a> // download flac
 <br>
 <a href="https://fmstream.org/" target="_blank">fmstream.org</a> // radio stream directory
 <br>
-<a href="https://yams.tf" target="_blank">YAMS</a> // download music from music services
+<a href="https://somafm.com/" target="_blank">SomaFM</a> // radio
 <br>
 <a href="https://groovesharks.org" target="_blank">Grooveshark</a> // browser music streamer
 </p>
@@ -301,5 +347,6 @@ anime:
 </p>
 <br>
 <h4>want to add something? feel free to make a pull request on <a href="https://github.com/anselscool/axsl.xyz">github</a></h4>
+</div>
 </body>
 </html>
